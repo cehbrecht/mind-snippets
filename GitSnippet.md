@@ -38,6 +38,7 @@ Created Monday 08 June 2015
 
 ##### define git log alias
 <https://gist.github.com/ralfebert/515937>
+
 	$ git config --global alias.lg "log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative"
 	$ git lg
 
@@ -169,11 +170,11 @@ Created Monday 08 June 2015
 
 ##### git rebase ... keep your history clean
 
-* <http://git-scm.com/book/en/v2/Git-Branching-Rebasing>
-* apply your local changes on top of remote branch changes
-* clean up local history
-* "... never rebase anything you’ve pushed somewhere."
+<http://git-scm.com/book/en/v2/Git-Branching-Rebasing>
 
+   	# apply your local changes on top of remote branch changes
+	# clean up local history
+	# "... never rebase anything you’ve pushed somewhere."
 
 	$ git checkout master
 	$ git branch experiment
